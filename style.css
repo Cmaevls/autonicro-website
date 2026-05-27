@@ -189,7 +189,7 @@ nav{
   margin-bottom:10px;
 }
 
-/* SECTIONS */
+/* GENERAL SECTIONS */
 
 section{
   padding:100px 8%;
@@ -249,10 +249,14 @@ section{
   line-height:1.8;
 }
 
-/* ABOUT */
+/* ABOUT SECTION ONLY WHITE */
 
 .about{
-  background:#0f1319;
+  background:white;
+}
+
+.about .section-title h2{
+  color:#111827;
 }
 
 .about-content{
@@ -269,7 +273,7 @@ section{
 
 .about-content p{
   line-height:2;
-  color:#d5d5d5;
+  color:#4b5563;
   font-size:1.05rem;
 }
 
